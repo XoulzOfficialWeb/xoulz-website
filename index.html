@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>XOULZ | Official Invitation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background: #07090d;
+            color: #f2f2f2;
+            min-height: 100vh;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* Background glow */
+
+        body::before {
+            content: "";
+            position: fixed;
+            width: 500px;
+            height: 500px;
+            background: rgba(120, 0, 0, 0.15);
+            filter: blur(120px);
+            border-radius: 50%;
+            top: -150px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+
+        header {
+            padding: 110px 20px 60px;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .est {
+            font-size: 13px;
+            letter-spacing: 6px;
+            color: #999;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(60px, 12vw, 120px);
+            letter-spacing: 18px;
+            font-weight: normal;
+            margin-left: 18px;
+        }
+
+        .motto {
+            margin-top: 15px;
+            font-size: 18px;
+            letter-spacing: 5px;
+            color: #bdbdbd;
+        }
+
+        .line {
+            width: 80px;
+            height: 1px;
+            background: #777;
+            margin: 35px auto;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 70px 25px;
+            animation: fadeUp 1.5s ease;
+        }
+
+        h2 {
+            font-size: 30px;
+            letter-spacing: 5px;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+
+        p {
+            color: #b8b8b8;
+            line-height: 1.9;
+            font-size: 16px;
+        }
+
+        .invitation {
+            margin-top: 25px;
+            font-weight: bold;
+            color: #eeeeee;
+        }
+
+        /* Button */
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 16px 40px;
+            border: 1px solid #777;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 3px;
+            transition: 0.4s ease;
+            background: transparent;
+        }
+
+        .button:hover {
+            background: #8b0000;
+            border-color: #8b0000;
+            box-shadow: 0 0 30px rgba(139, 0, 0, 0.5);
+            transform: translateY(-3px);
+        }
+
+        /* Code */
+
+        .code {
+            border-top: 1px solid #222;
+            border-bottom: 1px solid #222;
+        }
+
+        .values {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .value {
+            padding: 25px;
+            border: 1px solid #222;
+            background: rgba(255, 255, 255, 0.02);
+            transition: 0.3s ease;
+        }
+
+        .value:hover {
+            border-color: #666;
+            transform: translateY(-5px);
+        }
+
+        .value h3 {
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .value p {
+            font-size: 14px;
+        }
+
+        /* Oath */
+
+        .oath {
+            font-style: italic;
+            font-size: 20px;
+            color: #ddd;
+            line-height: 2;
+            padding: 30px;
+        }
+
+        footer {
+            padding: 50px 20px;
+            border-top: 1px solid #1d1d1d;
+            color: #666;
+            font-size: 13px;
+            letter-spacing: 2px;
+        }
+
+        /* Animations */
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Mobile */
+
+        @media (max-width: 600px) {
+            h1 {
+                letter-spacing: 8px;
+            }
+
+            .values {
+                grid-template-columns: 1fr;
+            }
+
+            .motto {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="est">EST. 2026</div>
+
+        <h1>XOULZ</h1>
+
+        <div class="motto">FROM ZERO, WE BEGIN.</div>
+
+        <div class="line"></div>
+    </header>
+
+
+    <section>
+        <h2>THE BROTHERHOOD</h2>
+
+        <p>
+            XOULZ is a brotherhood built from nothing and shaped by those
+            who choose to stand together. We value loyalty, respect,
+            discipline, and individuality, believing that strength is not
+            only measured by what one can accomplish alone, but by what we
+            can build together.
+        </p>
+
+        <p style="margin-top: 20px;">
+            From zero, we begin—not as strangers, but as a family with a
+            purpose, a name, and a legacy waiting to be written.
+        </p>
+    </section>
+
+
+    <section class="code">
+
+        <h2>THE CODE</h2>
+
+        <div class="values">
+
+            <div class="value">
+                <h3>LOYALTY</h3>
+                <p>Stand beside those who stand beside you.</p>
+            </div>
+
+            <div class="value">
+                <h3>RESPECT</h3>
+                <p>Strength means nothing without character.</p>
+            </div>
+
+            <div class="value">
+                <h3>DISCIPLINE</h3>
+                <p>Master yourself before seeking to master anything else.</p>
+            </div>
+
+            <div class="value">
+                <h3>UNITY</h3>
+                <p>Different souls. One brotherhood.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>THE OATH</h2>
+
+        <div class="oath">
+            “From zero, we begin.<br>
+            We walk together, we rise together,<br>
+            and we carry the name with honor.”
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>YOUR INVITATION AWAITS</h2>
+
+        <p>
+            The next chapter begins with those willing to step forward.
+        </p>
+
+        <a
+            class="button"
+            href="https://discord.gg/B2GEpYhEAj"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            ENTER XOULZ
+        </a>
+
+    </section>
+
+
+    <footer>
+        XOULZ © 2026 — FROM ZERO, WE BEGIN.
+    </footer>
+
+</body>
+</html>
